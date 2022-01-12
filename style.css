@@ -1,0 +1,46 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+  clear: both;
+}
+/*Comments*/
+.header{
+  background: #1a1a1a;
+  height: 34px;
+  padding: 20px 0px;
+  width: 100%;
+}
+.search-wrapper input{
+  height: 34px;
+  border:1px solid #cacaca;
+  font-size: 16px;
+  padding-left: 12px;
+  background: transparent;
+}
+.menu-wrapper i{
+  color: white;
+  font-size: 24px;
+
+}
+
+.header form{
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
+}
+
+#search-form{
+  position: relative;
+}
+
+#search-form button{
+  position: absolute;
+  right: 0px;
+  height: 38px;
+  background: transparent;
+  border: none;
+}
+
+#search-form button i{
+  font-size: 22px;
+  /*font-weight: 400;*/
+  color: white;
